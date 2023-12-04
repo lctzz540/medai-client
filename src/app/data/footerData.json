@@ -1,0 +1,41 @@
+{
+  "sections": [
+    {
+      "title": "about us",
+      "info": [
+        "Member of the Bompfunwerer",
+        "Consortium for RNA Bioinformatics"
+      ],
+      "isLink": false
+    },
+    {
+      "title": "address",
+      "info": [
+        "Professur fur Bioinformatik",
+        "Institut fur Informatik",
+        "Universitat Leipzig",
+        "Hartelstr, 16-18",
+        "D-04107 Leipzig"
+      ],
+      "isLink": false
+    },
+    {
+      "title": "short links",
+      "info": [
+        [
+          "People",
+          "/"
+        ],
+        [
+          "Publications",
+          "/"
+        ],
+        [
+          "Legacy Website",
+          "/"
+        ]
+      ],
+      "isLink": true
+    }
+  ]
+}

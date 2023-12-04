@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Dr. James Smith",
+    "role": "leader",
+    "units": "University of Chemistry and Bioengineering, Chicago",
+    "description": "Specialist in Biochemistry and Molecular Biology, also teaches advanced courses in Organic Chemistry",
+    "avatar": "/team/1.jpg"
+  },
+  {
+    "name": "Prof. Dr. Maria Gonzalez",
+    "role": "member",
+    "units": "College of Pharmaceutical Sciences, Madrid",
+    "description": "Renowned researcher in Organic Chemistry and leader of various research projects focused on drug development",
+    "avatar": "/team/2.jpg"
+  },
+  {
+    "name": "Dr. John Patel",
+    "role": "member",
+    "units": "Department of Chemistry, Imperial Medical College, London",
+    "description": "Specializes in Organic Chemistry education, known for innovative teaching methods and research in medicinal chemistry",
+    "avatar": "/team/3.jpg"
+  },
+  {
+    "name": "Prof. Dr. Emily Chang",
+    "role": "member",
+    "units": "Institute of Chemical Biology, Tokyo Tech",
+    "description": "Conducts advanced research in Organic Chemistry, particularly in the synthesis of novel compounds for pharmaceutical applications",
+    "avatar": "/team/4.jpg"
+  },
+  {
+    "name": "Dr. Thomas Wagner",
+    "role": "member",
+    "units": "Center for Organic Chemistry, Research Institute, Berlin",
+    "description": "Leads a research group focused on the development of new methodologies in Organic Chemistry and collaborates with industry for drug discovery projects",
+    "avatar": "/team/5.jpg"
+  }
+]
