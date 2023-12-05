@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div>
           <div
-            className={`mt-8 grid grid-cols-${footerData.sections.length < 5 ? footerData.sections.length : 5
+            className={`mt-8 grid grid-cols-3
               } gap-8 lg:mt-0 lg:gap-y-16`}
           >
             {footerData.sections.map((section, index) => (
