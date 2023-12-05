@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer style={footerStyle}>
-      <div className="mt-20 pb-48 lg:flex mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 items-center justify-between lg:pb-8">
+      <div className="mt-36 pb-48 lg:flex mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 items-center justify-between lg:pb-8">
         <div className="hidden lg:flex lg:w-1/3">
           <Logo size={200} />
         </div>
