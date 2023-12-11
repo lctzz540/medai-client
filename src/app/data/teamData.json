@@ -4,7 +4,12 @@
     "role": "leader",
     "units": "University of Chemistry and Bioengineering, Chicago",
     "description": "Specialist in Biochemistry and Molecular Biology, also teaches advanced courses in Organic Chemistry",
-    "avatar": "/team/1.jpg"
+    "avatar": "/team/1.jpg",
+    "github": null,
+    "facebook": null,
+    "linkedin": null,
+    "twitter": null,
+    "envelope": null
   },
   {
     "name": "Prof. Dr. Maria Gonzalez",
