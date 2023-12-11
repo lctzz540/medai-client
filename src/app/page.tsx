@@ -1,4 +1,5 @@
 import Abstract from "./components/Abstract";
+import Banner from "./components/Banner";
 import Carousel from "./components/Carousel";
 
 export default function Home() {

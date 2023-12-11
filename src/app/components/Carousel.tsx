@@ -45,8 +45,8 @@ const Carousel = () => {
           <Image
             key={index}
             src={imageFiles[currentImage]}
-            layout="fill"
             alt={`Carousel Image`}
+            layout="fill"
             className={`absolute top-0 left-0 ${transitioning && currentImage !== index
                 ? "opacity-0"
                 : "opacity-100"
