@@ -2,12 +2,26 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import { getCarouselImageLinks } from "../api";
 
 const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [transitioning, setTransitioning] = useState(false);
+  const [imageFiles, setImageFiles] = useState<string[]>([]);
 
-  const imageFiles = ["/banner/1.jpg", "/banner/2.jpg", "/banner/4.jpg"];
+  useEffect(() => {
+    const fetchImageFiles = async () => {
+      try {
+        const links = await getCarouselImageLinks();
+
+        links && setImageFiles(links);
+      } catch (error) {
+        console.error("Error fetching image links:", error);
+      }
+    };
+
+    fetchImageFiles();
+  }, []);
 
   const handlePrevImage = () => {
     setTransitioning(true);
@@ -56,7 +70,7 @@ const Carousel = () => {
         ))}
       </div>
       <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        {imageFiles.map((_, index) => (
+        {imageFiles.map((_, index: any) => (
           <button
             key={index}
             type="button"

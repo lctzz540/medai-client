@@ -1,9 +1,11 @@
 import React from "react";
-import teamData from "../data/teamData.json";
 import Image from "next/image";
 import SocialNetwork from "./SocialNetwork";
+import { baseURL, getTeamMembers } from "../api";
 
-const TeamProfileCard = () => {
+const TeamProfileCard = async () => {
+  const teamData = await getTeamMembers();
+  if (teamData === null) return <></>;
   const leader = teamData.find((member) => member.role === "leader");
   const members = teamData.filter((member) => member.role === "member");
 
@@ -17,7 +19,7 @@ const TeamProfileCard = () => {
         >
           <div className="mr-6">
             <Image
-              src={leader.avatar}
+              src={baseURL + "/static/avatar/" + leader.avatar}
               alt={leader.name}
               width={300}
               height={300}
@@ -42,7 +44,7 @@ const TeamProfileCard = () => {
           >
             <div className="mr-6">
               <Image
-                src={member.avatar}
+                src={baseURL + "/static/avatar/" + member.avatar}
                 alt={member.name}
                 width={300}
                 height={300}
